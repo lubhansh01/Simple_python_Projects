@@ -1,0 +1,24 @@
+Develop a School Management System
+Objective: Implement a basic school management system with classes for students and courses.
+
+Steps:
+
+Define a Student Class:
+
+Attributes: name, student_id, enrolled_courses (list)
+Methods: enroll(course), drop(course), display_courses()
+Define a Course Class:
+
+Attributes: course_name, course_code, max_students, enrolled_students (list)
+Methods: add_student(student), remove_student(student), display_info()
+Implement Enrollment and Dropping:
+
+In the Student class, implement the enroll() and drop() methods to manage the courses a student is enrolled in.
+In the Course class, implement the add_student() and remove_student() methods to manage the students enrolled in the course.
+Ensure Maximum Capacity:
+
+Ensure that the add_student() method in the Course class does not allow more students to be added than the maximum capacity.
+Test the System:
+
+Create instances of Student and Course.
+Simulate enrolling and dropping courses, and display the information of students and courses

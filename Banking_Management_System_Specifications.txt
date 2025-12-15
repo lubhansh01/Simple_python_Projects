@@ -1,1 +1,24 @@
-Task 3: Create a Banking SystemObjective: Implement a simple banking system with classes for accounts and transactions.Steps:1. Define a BankAccount Class:o Attributes: account_number, account_holder, balanceo Methods: deposit(amount), withdraw(amount), display_balance()2. Define a Transaction Class:o Attributes: transaction_id, account, amount, type (deposit or withdrawal), dateo Methods: display_transaction()3. Implement Deposit and Withdrawal:o In the BankAccount class, implement the deposit() and withdraw() methods to update the balance and create a new transaction.4. Implement Transaction History:o Maintain a list of transactions in the BankAccount class and update it whenever a deposit or withdrawal is made.5. Test the System:o Create instances of BankAccount.o Simulate deposits and withdrawals, and display the balance and transaction history.
+Create a Banking System
+Objective: Implement a simple banking system with classes for accounts and transactions.
+
+Steps:
+
+Define a BankAccount Class:
+
+Attributes: account_number, account_holder, balance
+Methods: deposit(amount), withdraw(amount), display_balance()
+Define a Transaction Class:
+
+Attributes: transaction_id, account, amount, type (deposit or withdrawal), date
+Methods: display_transaction()
+Implement Deposit and Withdrawal:
+
+In the BankAccount class, implement the deposit() and withdraw() methods to update the balance and create a new transaction.
+Implement Transaction History:
+
+Maintain a list of transactions in the BankAccount class and update it whenever a deposit or withdrawal is made.
+Test the System:
+
+Create instances of BankAccount.
+Simulate deposits and withdrawals, and display the balance and transaction history.
+
