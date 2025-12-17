@@ -1,0 +1,24 @@
+Build a Car Rental System
+Objective: Implement a simple car rental system with classes for cars and rentals.
+
+Steps:
+
+Define a Car Class:
+
+Attributes: make, model, year, rental_rate, availability
+Methods: rent_car(), return_car(), display_info()
+Define a Rental Class:
+
+Attributes: rental_id, car, customer_name, rental_date, return_date, total_cost
+Methods: calculate_total_cost(), display_rental_info()
+Implement Car Rental and Return:
+
+In the Car class, implement the rent_car() and return_car() methods to manage the availability of the car.
+In the Rental class, implement the calculate_total_cost() method to calculate the cost based on the rental rate and duration.
+Manage Rental Records:
+
+Maintain a list of rentals and update it whenever a car is rented or returned.
+Test the System:
+
+Create instances of Car and Rental.
+Simulate renting and returning cars, and display the information of cars and rentals.
